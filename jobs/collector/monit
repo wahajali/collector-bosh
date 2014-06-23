@@ -1,0 +1,5 @@
+check process collector
+  with pidfile /var/vcap/sys/run/collector/pid
+  start program "/var/vcap/jobs/collector/bin/ctl start"
+  stop program "/var/vcap/jobs/collector/bin/ctl stop"
+  group vcap

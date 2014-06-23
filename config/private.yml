@@ -1,0 +1,5 @@
+---
+blobstore_secret: 'testing123'
+blobstore:
+  local:
+    blobstore_path: /tmp/collector

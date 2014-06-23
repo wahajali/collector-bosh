@@ -1,0 +1,6 @@
+---
+name: collector
+templates:
+  ctl.erb: bin/ctl
+
+packages:
